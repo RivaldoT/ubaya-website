@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+    <!--ini wajib untuk menentukan widht dll-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <!--ini menghubungkan css dan html-->
+    <link rel="stylesheet" href="style.css">
+    <!--ini font styles yg di copy dri gfonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!--link ini agar ada iconnya-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--ini untuk membuat class header agar lebih mudah di css ntar-->
+<!----------------------Background atau tampilan html------------------------>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="ubaya_img/logo.png"></a> <!---"ubaya_img/logo.png"--->
+
+        <div class="nav-links" id="navLinks">
+            <!--i ini dicari di google keywordnya font awesome 4 icons yang untuk close ditaruh di awal yang untuk buka ditarok sebelum nav ditutup -->
+            <i class="fa fa-arrow-right" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <!--i ini dicari di google keywordnya font awesome 4 icons yang untuk close ditaruh di awal yang untuk buka ditarok sebelum nav ditutup ada scriptnya -->
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Surabaya Biggest University</h1>
+    <p>Universitas Surabaya is the oldest university in surabaya. <br>Because it been build from 1945 when indonesia have been independent from Netherlands and Japan </p>
+    <a href="https://ubaya.ac.id/" target="_blank" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+
+<!--------------------------------Course-------------------------------->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Visi:<br>Menjadikan Universitas Surabaya Sebagai The First University in Heart and Mind.<br>   
+    Misi:<br>Memajukan Masyarakat Bisnis dan Industri melalui Pengembangan Kegiatan Tridarma Perguruan Tinggi secara Berkesinambungan demi Kesejahteraan Umat Manusia.
+    </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Associate's Degree</h3>
+            <p>Associate's degree adalah gelar yang termasuk dalam kategori gelar undergraduate dan bisa dikatakan setara dengan D3 di Indonesia. 
+            Program dengan gelar ini mengajarkan ilmu pengetahuan dan keahlian teknis dasar, serta transferable skills 
+            sebelum mahasiswa memasuki dunia kerja, atau meneruskan ke pendidikan ke jenjang berikutnya
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Bachelor's Degree</h3>
+            <p>Bachelor's Degree adalah gelar yang cukup mudah dimengerti karena setara dengan S1 di Indonesia. Di luar negeri, 
+            gelar ini masuk dalam kategori gelar undergraduate, yaitu gelar pendidikan lanjutan setelah menamatkan SMA.Program studi yang 
+            memberikan gelar Bachelor biasanya berdurasi 4 tahun dan mengajarkan bidang studi yang spesifik, seperti bisnis, matematika 
+            dan psikologi.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Magister Degree</h3>
+            <p>Magister Degree adalah gelar yang mengharuskan seseorang memiliki keterampilan tingkat tinggi dalam analisis, evaluasi kritis, 
+            atau aplikasi profesional; dan kemampuan untuk memecahkan masalah yang kompleks dan berpikir secara keras dan mandiri. kalau di 
+            indonesia, boleh dibilang master degree ini merupakan jenjang pendidikan tinggi yang setingkat dengan S2 atau program magister.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-----------------------------campus------------------------------>
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Ubaya mempunyai 3 buah kampus yang dua di antaranya terletak di dalam kota Surabaya dan yang ketiga terletak di Trawas.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="eduford_img/london.png">
+            <div class="layer">
+                <h3>Ubaya Ngagel</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="eduford_img/newyork.png">
+            <div class="layer">
+                <h3>Ubaya Tenggilis</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="eduford_img/washington.png">
+            <div class="layer">
+                <h3>Ubaya III Trawas</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------Facilities---------------------------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/library.png">
+            <h3>Perpustakaan Ubaya</h3>
+            <p>Sebagai salah satu sarana penunjang akademik memiliki peran cukup strategis dalam penyediaan informasi perkembangan ilmu 
+            pengetahuan bagi pengguna dilingkungan civitas akademika Universitas Surabaya. Perpustakaan sebagai bagian selalu berupaya untuk 
+            memberikan yang terbaik sesuai motto kami untuk menjadi One Stop Information Service Provider dalam hal pemenuhan kebutuhan informasi 
+            yang dapat menunjang pelaksanaan akademis di Universitas Surabaya.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/basketball.png">
+            <h3>Ubaya Training Center</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit neque exercitationem officia cum nulla, odit voluptate commodi repellendus dignissimos quia, 
+            totam voluptatibus aliquam, provident autem sed. Dolor libero qui commodi.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png">
+            <h3>Kantin PH Ubaya</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Suscipit neque exercitationem officia cum nulla, odit voluptate commodi repellendus dignissimos quia, 
+            totam voluptatibus aliquam, provident autem sed. Dolor libero qui commodi.</p>
+        </div>
+    </div>
+</section>
+
+<!--------------------JavaScript for toggle menu----------------------->
+<script>   
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
